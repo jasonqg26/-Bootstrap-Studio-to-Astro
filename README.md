@@ -85,8 +85,9 @@ Puedes definir los componentes a extraer en `config/components_config.json`:
 }
 ```
 Cada elemento por ID se convierte en un componente Astro organizado y con imports relativos.
-**IMPORTANTE TENER CONFIGURADAS LAS RUTAS RELATIVAS EN TU PROYECTO ASTRO**
 
+
+**IMPORTANTE TENER CONFIGURADAS LAS RUTAS RELATIVAS EN TU PROYECTO ASTRO**
 **Las rutas usadas son @/Components**
 ---
 
