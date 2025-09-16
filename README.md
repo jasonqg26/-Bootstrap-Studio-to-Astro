@@ -88,6 +88,7 @@ Cada elemento por ID se convierte en un componente Astro organizado y con import
 
 
 **IMPORTANTE TENER CONFIGURADAS LAS RUTAS RELATIVAS EN TU PROYECTO ASTRO**
+
 **Las rutas usadas son @/Components**
 ---
 
