@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html data-bs-theme="light" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>NuxTek</title>
+    <link rel="apple-touch-icon" type="image/png" sizes="180x180" href="/assets/img/Favicons/icons8-physics-forma-bold-filled-180.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/Favicons/icons8-physics-forma-bold-filled-16.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/Favicons/icons8-physics-forma-bold-filled-16.png" media="(prefers-color-scheme: dark)">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/Favicons/icons8-physics-forma-bold-filled-32.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/Favicons/icons8-physics-forma-bold-filled-32.png" media="(prefers-color-scheme: dark)">
+    <link rel="icon" type="image/png" sizes="180x180" href="/assets/img/Favicons/icons8-physics-forma-bold-filled-180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/assets/img/Favicons/icons8-physics-forma-bold-filled-192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="/assets/img/Favicons/icons8-physics-forma-bold-filled-512.png">
+    <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Acme&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=ADLaM+Display&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Afacad+Flux&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Akshar&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alfa+Slab+One&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kanit&amp;display=swap">
+    <link rel="stylesheet" href="/assets/css/bss-overrides.css">
+    <link rel="stylesheet" href="/assets/css/animate.min.css">
+    <link rel="stylesheet" href="/assets/css/background-home.css">
+    <link rel="stylesheet" href="/assets/css/background-index.css">
+    <link rel="stylesheet" href="/assets/css/Black-Navbar-1.css">
+    <link rel="stylesheet" href="/assets/css/Black-Navbar.css">
+    <link rel="stylesheet" href="/assets/css/cards.css">
+    <link rel="stylesheet" href="/assets/css/Navbar-With-Button-icons.css">
+    <link rel="stylesheet" href="/assets/css/sherch-home.css">
+</head>
+
+<body class="bg-home-animate">
+    <div class="offcanvas offcanvas-start bg-bars" tabindex="-1" data-bs-backdrop="false" id="offcanvas-menu">
+        <div class="offcanvas-header" id="slider-bar-home"><a class="text-decoration-none link-body-emphasis d-flex align-items-center me-md-auto mb-3 mb-md-0" href="/"><span class="fs-4 font-logo" style="color:rgb(255,255,255);">Menu</span></a><button class="btn-close btn-close-white" type="button" aria-label="Close" data-bs-dismiss="offcanvas"></button></div>
+        <div class="offcanvas-body d-flex flex-column justify-content-between pt-0">
+            <div>
+                <hr class="mt-0">
+                <ul class="nav nav-pills flex-column mb-auto">
+                    <li class="nav-item"></li>
+                    <li class="nav-item"><a class="nav-link" style="color:rgb(255,255,255);" href="/home"><svg class="bi bi-house-door-fill me-2" fill="currentColor" height="1em" style="font-size:30px;" viewBox="0 0 16 16" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5"></path></svg>&nbsp;Sus productos</a></li>
+                    <li class="nav-item"></li>
+                    <li class="nav-item"><a class="nav-link" href="/products" style="color:rgb(255,255,255);"><svg class="bi bi-grid me-2" fill="currentColor" height="1em" style="font-size:30px;" viewBox="0 0 16 16" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M1 2.5A1.5 1.5 0 0 1 2.5 1h3A1.5 1.5 0 0 1 7 2.5v3A1.5 1.5 0 0 1 5.5 7h-3A1.5 1.5 0 0 1 1 5.5zM2.5 2a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5zm6.5.5A1.5 1.5 0 0 1 10.5 1h3A1.5 1.5 0 0 1 15 2.5v3A1.5 1.5 0 0 1 13.5 7h-3A1.5 1.5 0 0 1 9 5.5zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5zM1 10.5A1.5 1.5 0 0 1 2.5 9h3A1.5 1.5 0 0 1 7 10.5v3A1.5 1.5 0 0 1 5.5 15h-3A1.5 1.5 0 0 1 1 13.5zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5zm6.5.5A1.5 1.5 0 0 1 10.5 9h3a1.5 1.5 0 0 1 1.5 1.5v3a1.5 1.5 0 0 1-1.5 1.5h-3A1.5 1.5 0 0 1 9 13.5zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5z"></path></svg>&nbsp;Nuestros Productos</a></li>
+                    <li class="nav-item"><a class="nav-link label-font" href="#" style="color:rgb(255,255,255);"><svg class="bi bi-people me-2" fill="currentColor" height="1em" style="font-size:30px;" viewBox="0 0 16 16" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M15 14s1 0 1-1-1-4-5-4-5 3-5 4 1 1 1 1zm-7.978-1A.261.261 0 0 1 7 12.996c.001-.264.167-1.03.76-1.72C8.312 10.629 9.282 10 11 10c1.717 0 2.687.63 3.24 1.276.593.69.758 1.457.76 1.72l-.008.002a.274.274 0 0 1-.014.002H7.022ZM11 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4m3-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0M6.936 9.28a5.88 5.88 0 0 0-1.23-.247A7.35 7.35 0 0 0 5 9c-4 0-5 3-5 4 0 .667.333 1 1 1h4.216A2.238 2.238 0 0 1 5 13c0-1.01.377-2.042 1.09-2.904.243-.294.526-.569.846-.816M4.92 10A5.493 5.493 0 0 0 4 13H1c0-.26.164-1.03.76-1.724.545-.636 1.492-1.256 3.16-1.275ZM1.5 5.5a3 3 0 1 1 6 0 3 3 0 0 1-6 0m3-2a2 2 0 1 0 0 4 2 2 0 0 0 0-4"></path></svg>&nbsp;Sus clientes</a></li>
+                </ul>
+            </div>
+            <div>
+                <hr>
+                <div class="dropdown"><a class="d-flex align-items-center dropdown-toggle btn-body-white" aria-expanded="false" data-bs-toggle="dropdown" role="button"><img class="rounded-circle object-fit-cover me-2" id="img-profile-sidebar" alt="" width="32" height="32" src="https://cdn.bootstrapstudio.io/placeholders/1400x800.png"><strong>User</strong></a>
+                    <div class="shadow dropdown-menu" data-popper-placement="top-start"><a class="dropdown-item" href="#">New project...</a><a class="dropdown-item" href="#">Settings</a><a class="dropdown-item" href="#">Profile</a>
+                        <div class="dropdown-divider"></div><a class="dropdown-item" href="#">Sign out</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <nav class="navbar navbar-expand-md w-100 pt-3 pb-3 bg-bars" id="nav-bar-logged-user" data-bs-theme="dark">
+        <div class="container">
+            <div class="px-0 container-fluid">
+                <div class="row w-100">
+                    <div class="col-auto col-md-4 align-self-center me-auto">
+                        <div class="justify-content-start align-items-start"><button class="btn btn-primary position-relative me-0" type="button" style="background:rgba(13,110,253,0);border-style:none;" data-bs-toggle="offcanvas" data-bs-target="#offcanvas-menu" aria-controls="offcanvas-menu"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-grid-fill" id="btn-home-menu" style="font-size:30px;background:rgba(0,0,0,0);color:rgb(255,255,255);"><path d="M1 2.5A1.5 1.5 0 0 1 2.5 1h3A1.5 1.5 0 0 1 7 2.5v3A1.5 1.5 0 0 1 5.5 7h-3A1.5 1.5 0 0 1 1 5.5zm8 0A1.5 1.5 0 0 1 10.5 1h3A1.5 1.5 0 0 1 15 2.5v3A1.5 1.5 0 0 1 13.5 7h-3A1.5 1.5 0 0 1 9 5.5zm-8 8A1.5 1.5 0 0 1 2.5 9h3A1.5 1.5 0 0 1 7 10.5v3A1.5 1.5 0 0 1 5.5 15h-3A1.5 1.5 0 0 1 1 13.5zm8 0A1.5 1.5 0 0 1 10.5 9h3a1.5 1.5 0 0 1 1.5 1.5v3a1.5 1.5 0 0 1-1.5 1.5h-3A1.5 1.5 0 0 1 9 13.5z"></path></svg></button></div>
+                    </div>
+                    <div class="col-auto col-md-4 align-items-center align-self-start"><a class="navbar-brand d-flex w-auto h-75 justify-content-center align-items-center ms-0 me-0" data-bss-disabled-mobile="true" data-bss-hover-animate="rubberBand" href="#"><span class="d-flex justify-content-center align-items-center me-2 bs-icon-sm bs-icon-rounded bs-icon-primary bs-icon" style="background:rgba(13,110,253,0);"><img class="ms-3 me-3 mt-3 mb-3" src="/assets/img/Logo/3/icons8-física-72.png" width="65" height="65"></span><span class="ms-3 mb-0 font-logo">NuxTek</span></a></div>
+                    <div class="col-4 offset-xxl-0">
+                        <div class="d-flex justify-content-end align-items-end">
+                            <div class="dropdown"><a class="text-decoration-none" aria-expanded="false" data-bs-toggle="dropdown" href="#" style="color:rgb(255,255,255);"><img class="rounded-circle object-fit-cover me-2" id="img-profile-sidebar-1" alt="" width="32" height="32" src="https://cdn.bootstrapstudio.io/placeholders/1400x800.png"><strong>User</strong></a>
+                                <div class="shadow dropdown-menu dropdown-menu-dark" data-popper-placement="top-start"><a class="dropdown-item" href="#">New project...</a><a class="dropdown-item" href="#">Settings</a><a class="dropdown-item" href="#">Profile</a>
+                                    <div class="dropdown-divider"></div><a class="dropdown-item" href="#">Sign out</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="mt-5 px-0 container-fluid">
+        <div class="row w-100">
+            <div class="col-auto col-md-4 d-flex justify-content-center align-self-center me-auto"><label class="col-form-label text-uppercase text-white font-logo font-size-titel">Sus productos</label></div>
+            <div class="col-auto col-md-4 d-flex justify-content-center align-items-center m-auto">
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <div class="ms-0 me-0 input-container" id="search-input-terminal">
+                                <p class="bash-text"><span class="me-0 pe-0 user">user<span class="vm">@Nux-Tek</span>:<span class="char">~</span>$ </span></p><input class="form-control-sm w-50 ms-0 ps-4 input" type="text" placeholder="sudo -s" autocomplete="on">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col d-flex justify-content-center align-items-center">
+                            <div><small class="form-text text-white label-font">Puede buscar entre sus productos</small></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4 offset-xxl-0"></div>
+        </div>
+    </div>
+    <section class="mt-5 mb-5 pb-0">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 d-flex justify-content-center mt-3 mb-3">
+                    <div class="card-product">
+                        <div class="wrapper">
+                            <div class="card-image"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-star">
+                                    <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"></path>
+                                </svg></div>
+                            <div class="content">
+                                <p class="title">Univercidad de Costa rica</p>
+                            </div><button class="btn card-btn btn-font btn-colors" type="button">Ir</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 d-flex justify-content-center mt-3 mb-3">
+                    <div class="card-product">
+                        <div class="wrapper">
+                            <div class="card-image"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-star">
+                                    <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"></path>
+                                </svg></div>
+                            <div class="content">
+                                <p class="title">Univercidad de Costa rica</p>
+                            </div><button class="btn card-btn btn-font btn-colors" type="button">Ir</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 d-flex justify-content-center mt-3 mb-3">
+                    <div class="card-product">
+                        <div class="wrapper">
+                            <div class="card-image"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-star">
+                                    <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"></path>
+                                </svg></div>
+                            <div class="content">
+                                <p class="title">Univercidad de Costa rica</p>
+                            </div><button class="btn card-btn btn-font btn-colors" type="button">Ir</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 d-flex justify-content-center mt-3 mb-3">
+                    <div class="card-product">
+                        <div class="wrapper">
+                            <div class="card-image"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-star">
+                                    <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"></path>
+                                </svg></div>
+                            <div class="content">
+                                <p class="title">Univercidad de Costa rica</p>
+                            </div><button class="btn card-btn btn-font btn-colors" type="button">Ir</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="text-center bg-bars" data-bs-theme="dark">
+        <div class="container mt-auto pt-10 pb-8 py-lg-5">
+            <ul class="list-inline">
+                <li class="list-inline-item me-4"><a class="link-body-emphasis" href="#">Web design</a></li>
+                <li class="list-inline-item me-4"><a class="link-body-emphasis" href="#">Development</a></li>
+                <li class="list-inline-item"><a class="link-body-emphasis" href="#">Hosting</a></li>
+            </ul>
+            <ul class="list-inline">
+                <li class="list-inline-item me-4"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-facebook text-body">
+                            <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"></path>
+                        </svg></a></li>
+                <li class="list-inline-item me-4"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-twitter-x text-body">
+                            <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865l8.875 11.633Z"></path>
+                        </svg></a></li>
+                <li class="list-inline-item"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-instagram text-body">
+                            <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"></path>
+                        </svg></a></li>
+            </ul>
+            <p class="text-body mb-0">Copyright © 2025 Brand</p>
+        </div>
+    </footer>
+    <script src="/assets/bootstrap/js/bootstrap.min.js" is:inline></script>
+    <script src="/assets/js/bs-init.js" is:inline></script>
+    <script src="/assets/js/home.js" is:inline></script>
+</body>
+
+</html>

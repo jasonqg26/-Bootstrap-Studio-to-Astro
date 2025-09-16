@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test Simple</title>
+</head>
+<body>
+    <h1>Página de prueba</h1>
+    
+    <div id="offcanvas-menu" class="offcanvas offcanvas-start bg-bars" tabindex="-1" data-bs-backdrop="false">
+        <div class="offcanvas-header"><a class="text-decoration-none link-body-emphasis d-flex align-items-center me-md-auto mb-3 mb-md-0" href="/"><span class="fs-4 font-logo" style="color: rgb(255,255,255);">Menu</span></a><button class="btn-close btn-close-white" type="button" aria-label="Close" data-bs-dismiss="offcanvas"></button></div>
+        <div class="offcanvas-body d-flex flex-column justify-content-between pt-0">
+            <div>
+                <hr class="mt-0" />
+                <ul class="nav nav-pills flex-column mb-auto">
+                    <li class="nav-item"></li>
+                    <li class="nav-item"><a class="nav-link" style="color: rgb(255,255,255);" href="home.html"><svg class="bi bi-house-door-fill me-2" fill="currentColor" height="1em" style="font-size: 30px;" viewBox="0 0 16 16" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5"></path>
+                            </svg> Sus productos</a></li>
+                    <li class="nav-item"></li>
+                    <li class="nav-item"><a class="nav-link" href="products.html" style="color: rgb(255,255,255);"><svg class="bi bi-grid me-2" fill="currentColor" height="1em" style="font-size: 30px;" viewBox="0 0 16 16" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1 2.5A1.5 1.5 0 0 1 2.5 1h3A1.5 1.5 0 0 1 7 2.5v3A1.5 1.5 0 0 1 5.5 7h-3A1.5 1.5 0 0 1 1 5.5zM2.5 2a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5zm6.5.5A1.5 1.5 0 0 1 10.5 1h3A1.5 1.5 0 0 1 15 2.5v3A1.5 1.5 0 0 1 13.5 7h-3A1.5 1.5 0 0 1 9 5.5zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5zM1 10.5A1.5 1.5 0 0 1 2.5 9h3A1.5 1.5 0 0 1 7 10.5v3A1.5 1.5 0 0 1 5.5 15h-3A1.5 1.5 0 0 1 1 13.5zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5zm6.5.5A1.5 1.5 0 0 1 10.5 9h3a1.5 1.5 0 0 1 1.5 1.5v3a1.5 1.5 0 0 1-1.5 1.5h-3A1.5 1.5 0 0 1 9 13.5zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5z"></path>
+                            </svg> Nuestros productos</a></li>
+                    <li class="nav-item"><a class="nav-link label-font" href="#" style="color: rgb(255,255,255);"><svg class="bi bi-people me-2" fill="currentColor" height="1em" style="font-size: 30px;" viewBox="0 0 16 16" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M15 14s1 0 1-1-1-4-5-4-5 3-5 4 1 1 1 1zm-7.978-1A.261.261 0 0 1 7 12.996c.001-.264.167-1.03.76-1.72C8.312 10.629 9.282 10 11 10c1.717 0 2.687.63 3.24 1.276.593.69.758 1.457.76 1.72l-.008.002a.274.274 0 0 1-.014.002H7.022ZM11 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4m3-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0M6.936 9.28a5.88 5.88 0 0 0-1.23-.247A7.35 7.35 0 0 0 5 9c-4 0-5 3-5 4 0 .667.333 1 1 1h4.216A2.238 2.238 0 0 1 5 13c0-1.01.377-2.042 1.09-2.904.243-.294.526-.569.846-.816M4.92 10A5.493 5.493 0 0 0 4 13H1c0-.26.164-1.03.76-1.724.545-.636 1.492-1.256 3.16-1.275ZM1.5 5.5a3 3 0 1 1 6 0 3 3 0 0 1-6 0m3-2a2 2 0 1 0 0 4 2 2 0 0 0 0-4"></path>
+                            </svg> Sus clientes</a></li>
+                </ul>
+            </div>
+            <div>
+                <hr />
+                <div class="dropdown"><a class="d-flex align-items-center dropdown-toggle btn-body-white" aria-expanded="false" data-bs-toggle="dropdown" role="button"><img id="img-profile-sidebar" class="rounded-circle object-fit-cover me-2" alt width="32" height="32" src="https://cdn.bootstrapstudio.io/placeholders/1400x800.png" /><strong>User</strong></a>
+                    <div class="shadow dropdown-menu" data-popper-placement="top-start"><a class="dropdown-item" href="#">New project...</a><a class="dropdown-item" href="#">Settings</a><a class="dropdown-item" href="#">Profile</a>
+                        <div class="dropdown-divider"></div><a class="dropdown-item" href="#">Sign out</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <p>Contenido después del OffcanvasMenu que debe permanecer</p>
+</body>
+</html>

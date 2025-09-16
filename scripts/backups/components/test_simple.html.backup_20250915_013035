@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test Simple</title>
+</head>
+<body>
+    <h1>Página de prueba</h1>
+    
+    <div id="offcanvas-menu" class="offcanvas offcanvas-start bg-bars" tabindex="-1" data-bs-backdrop="false">
+        <div class="offcanvas-header">
+            <a href="/"><span class="fs-4 font-logo">Menu</span></a>
+            <button class="btn-close btn-close-white" type="button" data-bs-dismiss="offcanvas"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div>
+                <hr class="mt-0" />
+                <ul class="nav nav-pills flex-column mb-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="home.html">Sus productos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="products.html">Nuestros productos</a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <hr />
+                <div class="dropdown">
+                    <a class="dropdown-toggle" data-bs-toggle="dropdown">
+                        <img alt="Profile" width="32" height="32" />
+                        <strong>User</strong>
+                    </a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">Settings</a>
+                        <a class="dropdown-item" href="#">Sign out</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <p>Contenido después del OffcanvasMenu que debe permanecer</p>
+</body>
+</html>

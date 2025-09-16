@@ -1,0 +1,47 @@
+{
+  "components": [
+    {
+      "id": "nav-bar-public",
+      "component_name": "NavBarPublic",
+      "subfolder": "NavBars",
+      "description": "Barra de navegación pública del sitio"
+    },
+    {
+      "id": "footer-public",
+      "component_name": "FooterPublic",
+      "subfolder": null,
+      "description": "Pie de página pública del sitio"
+    },
+    {
+      "id": "nav-bar-login",
+      "component_name": "NavBarLogin",
+      "subfolder": "NavBars",
+      "description": "Barra de navegación para login"
+    },
+    {
+      "id": "nav-bar-newAccount",
+      "component_name": "NavBarNewAccount",
+      "subfolder": "NavBars",
+      "description": "Barra de navegación para nueva cuenta"
+    },
+    {
+      "id": "nav-bar-logged-user",
+      "component_name": "NavBarLoggedUser",
+      "subfolder": "NavBars",
+      "description": "Barra de navegación para usuario logueado"
+    },
+    {
+      "id": "search-input-terminal",
+      "component_name": "SearchInputTerminal",
+      "subfolder": "Searchs",
+      "description": "Campo de búsqueda con aspecto de terminal"
+    },
+    {
+      "id": "offcanvas-menu",
+      "component_name": "OffcanvasMenu",
+      "subfolder": "Menus",
+      "description": "Menú offcanvas para navegación"
+    }
+  ]
+}
+

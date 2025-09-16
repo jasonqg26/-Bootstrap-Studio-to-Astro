@@ -1,0 +1,263 @@
+[lun 15/09/2025 18:49:54,58] Inicio de procesamiento 
+Directorio de exportaciÃ³n: C:\Users\jason\Documents\Nuxtek\nux\src\pages 
+ 
+======================================== 
+Paso 1: Corrigiendo viewBox en archivos 
+======================================== 
+=== Script de corrección viewbox -> viewBox ===
+Procesando directorio: pages
+
+OK home.html: 11 cambios realizados
+OK index.html: 5 cambios realizados
+OK login.html: 4 cambios realizados
+OK newAccount.html: 4 cambios realizados
+OK products.html: 11 cambios realizados
+-- assets\fonts\ionicons.svg: No se encontraron cambios necesarios
+-- assets\fonts\MaterialIcons-Regular.svg: No se encontraron cambios necesarios
+
+Resumen:
+Archivos procesados: 7
+Total de correcciones: 35
+=== Script completado ===
+âœ“ CorrecciÃ³n de viewBox completada 
+ 
+======================================== 
+Paso 2: Moviendo archivos de assets 
+======================================== 
+=== Script de movimiento de assets ===
+Directorio de exportación: pages
+Buscando assets en: assets
+OK Assets copiados a public/assets exitosamente
+OK Carpeta assets original eliminada del export
+
+Resumen:
+Assets movidos exitosamente de export a public/
+=== Script completado ===
+âœ“ Movimiento de assets completado 
+ 
+======================================== 
+Paso 3: Renombrando archivos HTML a ASTRO 
+======================================== 
+=== Script de renombrado HTML -> ASTRO ===
+Procesando directorio: pages
+
+OK home.html -> home.astro
+OK index.html -> index.astro
+OK login.html -> login.astro
+OK newAccount.html -> newAccount.astro
+OK products.html -> products.astro
+
+Resumen:
+Archivos renombrados: 5
+=== Script completado ===
+âœ“ Renombrado de archivos completado 
+ 
+======================================== 
+Paso 4: Corrigiendo enlaces HTML 
+======================================== 
+=== Script de corrección de enlaces HTML ===
+Procesando directorio: pages
+
+OK home.astro: 2 enlaces corregidos
+   /home.html -> /home
+   /products.html -> /products
+OK index.astro: 7 enlaces corregidos
+   /login.html -> /login
+   /login.html -> /login
+   /newAccount.html -> /newAccount
+   ... y 4 cambios más
+OK login.astro: 7 enlaces corregidos
+   /index.html -> /index
+   /login.html -> /login
+   /login.html -> /login
+   ... y 4 cambios más
+OK newAccount.astro: 7 enlaces corregidos
+   /index.html -> /index
+   /login.html -> /login
+   /login.html -> /login
+   ... y 4 cambios más
+OK products.astro: 2 enlaces corregidos
+   /home.html -> /home
+   /products.html -> /products
+
+Resumen:
+Archivos procesados: 5
+Total de enlaces corregidos: 25
+=== Script completado ===
+âœ“ CorrecciÃ³n de enlaces completada 
+ 
+======================================== 
+Paso 5: Corrigiendo scripts is:inline 
+======================================== 
+=== Script de corrección is:inline ===
+Procesando directorio: pages
+
+OK home.astro: 3 scripts corregidos
+OK index.astro: 4 scripts corregidos
+OK login.astro: 3 scripts corregidos
+OK newAccount.astro: 3 scripts corregidos
+OK products.astro: 3 scripts corregidos
+
+Resumen:
+Archivos procesados: 5
+Scripts corregidos: 16
+=== Script completado ===
+âœ“ Scripts is:inline corregidos 
+ 
+======================================== 
+Paso 6: Extrayendo componentes por ID 
+======================================== 
+=== Script de extraccion de componentes por ID ===
+Procesando directorio: pages
+Componentes objetivo: 7
+
+-- No se encontro elemento con ID 'nav-bar-public' en home.astro
+[DEBUG] Encontrado elemento <footer> con ID 'footer-public' en posicion 16287
+[DEBUG] Iniciando contador para <footer> con ID 'footer-public': contador = 1
+[DEBUG]    -> Etiqueta de cierre </footer>... en pos 19752 - contador: 0
+[DEBUG] Elemento completo extraido para ID 'footer-public' - 3474 caracteres
+OK home.astro:
+   - footer-public -> <FooterPublic /> [General] (Pie de página pública del sitio)
+-- No se encontro elemento con ID 'nav-bar-login' en home.astro
+-- No se encontro elemento con ID 'nav-bar-newAccount' en home.astro
+[DEBUG] Encontrado elemento <nav> con ID 'nav-bar-logged-user' en posicion 6773
+[DEBUG] Iniciando contador para <nav> con ID 'nav-bar-logged-user': contador = 1
+[DEBUG]    -> Etiqueta de cierre </nav>... en pos 9702 - contador: 0
+[DEBUG] Elemento completo extraido para ID 'nav-bar-logged-user' - 2935 caracteres
+OK home.astro:
+   - nav-bar-logged-user -> <NavBarLoggedUser /> [NavBars] (Barra de navegación para usuario logueado)
+[DEBUG] Encontrado elemento <div> con ID 'search-input-terminal' en posicion 10242
+[DEBUG] Iniciando contador para <div> con ID 'search-input-terminal': contador = 1
+[DEBUG]    -> Etiqueta de cierre </div>... en pos 10601 - contador: 0
+[DEBUG] Elemento completo extraido para ID 'search-input-terminal' - 365 caracteres
+OK home.astro:
+   - search-input-terminal -> <SearchInputTerminal /> [Searchs] (Campo de búsqueda con aspecto de terminal)
+[DEBUG] Encontrado elemento <div> con ID 'offcanvas-menu' en posicion 2593
+[DEBUG] Iniciando contador para <div> con ID 'offcanvas-menu': contador = 1
+[DEBUG]    -> Etiqueta de apertura <div class="offcanva... en pos 2708 - contador: 2
+[DEBUG]    -> Etiqueta de cierre </div>... en pos 3036 - contador: 1
+[DEBUG]    -> Etiqueta de apertura <div class="offcanva... en pos 3051 - contador: 2
+[DEBUG]    -> Etiqueta de apertura <div>... en pos 3140 - contador: 3
+[DEBUG]    -> Etiqueta de cierre </div>... en pos 5927 - contador: 2
+[DEBUG]    -> Etiqueta de apertura <div>... en pos 5946 - contador: 3
+[DEBUG]    -> Etiqueta de apertura <div class="dropdown... en pos 5989 - contador: 4
+[DEBUG]    -> Etiqueta de apertura <div class="shadow d... en pos 6355 - contador: 5
+[DEBUG]    -> Etiqueta de apertura <div class="dropdown... en pos 6591 - contador: 6
+[DEBUG]    -> Etiqueta de cierre </div>... en pos 6621 - contador: 5
+[DEBUG]    -> Etiqueta de cierre </div>... en pos 6694 - contador: 4
+[DEBUG]    -> Etiqueta de cierre </div>... en pos 6717 - contador: 3
+[DEBUG]    -> Etiqueta de cierre </div>... en pos 6736 - contador: 2
+[DEBUG]    -> Etiqueta de cierre </div>... en pos 6751 - contador: 1
+[DEBUG]    -> Etiqueta de cierre </div>... en pos 6762 - contador: 0
+[DEBUG] Elemento completo extraido para ID 'offcanvas-menu' - 4175 caracteres
+OK home.astro:
+   - offcanvas-menu -> <OffcanvasMenu /> [Menus] (Menú offcanvas para navegación)
+[DEBUG] Frontmatter creado con 4 imports
+[DEBUG] Archivo home.astro actualizado con componentes e imports
+[DEBUG] Encontrado elemento <nav> con ID 'nav-bar-public' en posicion 2653
+[DEBUG] Iniciando contador para <nav> con ID 'nav-bar-public': contador = 1
+[DEBUG]    -> Etiqueta de cierre </nav>... en pos 5097 - contador: 0
+[DEBUG] Elemento completo extraido para ID 'nav-bar-public' - 2450 caracteres
+OK index.astro:
+   - nav-bar-public -> <NavBarPublic /> [NavBars] (Barra de navegación pública del sitio)
+[DEBUG] Encontrado elemento <footer> con ID 'footer-public' en posicion 10020
+[DEBUG] Iniciando contador para <footer> con ID 'footer-public': contador = 1
+[DEBUG]    -> Etiqueta de cierre </footer>... en pos 13481 - contador: 0
+[DEBUG] Elemento completo extraido para ID 'footer-public' - 3470 caracteres
+OK index.astro:
+   - footer-public -> <FooterPublic /> [General] (Pie de página pública del sitio)
+-- No se encontro elemento con ID 'nav-bar-login' en index.astro
+-- No se encontro elemento con ID 'nav-bar-newAccount' en index.astro
+-- No se encontro elemento con ID 'nav-bar-logged-user' en index.astro
+-- No se encontro elemento con ID 'search-input-terminal' en index.astro
+-- No se encontro elemento con ID 'offcanvas-menu' en index.astro
+[DEBUG] Frontmatter creado con 2 imports
+[DEBUG] Archivo index.astro actualizado con componentes e imports
+-- No se encontro elemento con ID 'nav-bar-public' en login.astro
+[DEBUG] Encontrado elemento <footer> con ID 'footer-public' en posicion 7673
+[DEBUG] Iniciando contador para <footer> con ID 'footer-public': contador = 1
+[DEBUG]    -> Etiqueta de cierre </footer>... en pos 11138 - contador: 0
+[DEBUG] Elemento completo extraido para ID 'footer-public' - 3474 caracteres
+OK login.astro:
+   - footer-public -> <FooterPublic /> [General] (Pie de página pública del sitio)
+[DEBUG] Encontrado elemento <nav> con ID 'nav-bar-login' en posicion 2594
+[DEBUG] Iniciando contador para <nav> con ID 'nav-bar-login': contador = 1
+[DEBUG]    -> Etiqueta de cierre </nav>... en pos 4750 - contador: 0
+[DEBUG] Elemento completo extraido para ID 'nav-bar-login' - 2162 caracteres
+OK login.astro:
+   - nav-bar-login -> <NavBarLogin /> [NavBars] (Barra de navegación para login)
+-- No se encontro elemento con ID 'nav-bar-newAccount' en login.astro
+-- No se encontro elemento con ID 'nav-bar-logged-user' en login.astro
+-- No se encontro elemento con ID 'search-input-terminal' en login.astro
+-- No se encontro elemento con ID 'offcanvas-menu' en login.astro
+[DEBUG] Frontmatter creado con 2 imports
+[DEBUG] Archivo login.astro actualizado con componentes e imports
+-- No se encontro elemento con ID 'nav-bar-public' en newAccount.astro
+[DEBUG] Encontrado elemento <footer> con ID 'footer-public' en posicion 8299
+[DEBUG] Iniciando contador para <footer> con ID 'footer-public': contador = 1
+[DEBUG]    -> Etiqueta de cierre </footer>... en pos 11760 - contador: 0
+[DEBUG] Elemento completo extraido para ID 'footer-public' - 3470 caracteres
+OK newAccount.astro:
+   - footer-public -> <FooterPublic /> [General] (Pie de página pública del sitio)
+-- No se encontro elemento con ID 'nav-bar-login' en newAccount.astro
+[DEBUG] Encontrado elemento <nav> con ID 'nav-bar-newAccount' en posicion 2594
+[DEBUG] Iniciando contador para <nav> con ID 'nav-bar-newAccount': contador = 1
+[DEBUG]    -> Etiqueta de cierre </nav>... en pos 4717 - contador: 0
+[DEBUG] Elemento completo extraido para ID 'nav-bar-newAccount' - 2129 caracteres
+OK newAccount.astro:
+   - nav-bar-newAccount -> <NavBarNewAccount /> [NavBars] (Barra de navegación para nueva cuenta)
+-- No se encontro elemento con ID 'nav-bar-logged-user' en newAccount.astro
+-- No se encontro elemento con ID 'search-input-terminal' en newAccount.astro
+-- No se encontro elemento con ID 'offcanvas-menu' en newAccount.astro
+[DEBUG] Frontmatter creado con 2 imports
+[DEBUG] Archivo newAccount.astro actualizado con componentes e imports
+-- No se encontro elemento con ID 'nav-bar-public' en products.astro
+-- No se encontro elemento con ID 'footer-public' en products.astro
+-- No se encontro elemento con ID 'nav-bar-login' en products.astro
+-- No se encontro elemento con ID 'nav-bar-newAccount' en products.astro
+[DEBUG] Encontrado elemento <nav> con ID 'nav-bar-logged-user' en posicion 6942
+[DEBUG] Iniciando contador para <nav> con ID 'nav-bar-logged-user': contador = 1
+[DEBUG]    -> Etiqueta de cierre </nav>... en pos 9871 - contador: 0
+[DEBUG] Elemento completo extraido para ID 'nav-bar-logged-user' - 2935 caracteres
+OK products.astro:
+   - nav-bar-logged-user -> <NavBarLoggedUser /> [NavBars] (Barra de navegación para usuario logueado)
+[DEBUG] Encontrado elemento <div> con ID 'search-input-terminal' en posicion 10407
+[DEBUG] Iniciando contador para <div> con ID 'search-input-terminal': contador = 1
+[DEBUG]    -> Etiqueta de cierre </div>... en pos 10766 - contador: 0
+[DEBUG] Elemento completo extraido para ID 'search-input-terminal' - 365 caracteres
+OK products.astro:
+   - search-input-terminal -> <SearchInputTerminal /> [Searchs] (Campo de búsqueda con aspecto de terminal)
+[DEBUG] Encontrado elemento <div> con ID 'offcanvas-menu' en posicion 2762
+[DEBUG] Iniciando contador para <div> con ID 'offcanvas-menu': contador = 1
+[DEBUG]    -> Etiqueta de apertura <div class="offcanva... en pos 2877 - contador: 2
+[DEBUG]    -> Etiqueta de cierre </div>... en pos 3205 - contador: 1
+[DEBUG]    -> Etiqueta de apertura <div class="offcanva... en pos 3220 - contador: 2
+[DEBUG]    -> Etiqueta de apertura <div>... en pos 3309 - contador: 3
+[DEBUG]    -> Etiqueta de cierre </div>... en pos 6096 - contador: 2
+[DEBUG]    -> Etiqueta de apertura <div>... en pos 6115 - contador: 3
+[DEBUG]    -> Etiqueta de apertura <div class="dropdown... en pos 6158 - contador: 4
+[DEBUG]    -> Etiqueta de apertura <div class="shadow d... en pos 6524 - contador: 5
+[DEBUG]    -> Etiqueta de apertura <div class="dropdown... en pos 6760 - contador: 6
+[DEBUG]    -> Etiqueta de cierre </div>... en pos 6790 - contador: 5
+[DEBUG]    -> Etiqueta de cierre </div>... en pos 6863 - contador: 4
+[DEBUG]    -> Etiqueta de cierre </div>... en pos 6886 - contador: 3
+[DEBUG]    -> Etiqueta de cierre </div>... en pos 6905 - contador: 2
+[DEBUG]    -> Etiqueta de cierre </div>... en pos 6920 - contador: 1
+[DEBUG]    -> Etiqueta de cierre </div>... en pos 6931 - contador: 0
+[DEBUG] Elemento completo extraido para ID 'offcanvas-menu' - 4175 caracteres
+OK products.astro:
+   - offcanvas-menu -> <OffcanvasMenu /> [Menus] (Menú offcanvas para navegación)
+[DEBUG] Frontmatter creado con 3 imports
+[DEBUG] Archivo products.astro actualizado con componentes e imports
+
+Resumen:
+Archivos procesados: 5
+Componentes extraidos: 13
+Directorio de componentes: C:\Users\jason\Documents\Nuxtek\nux\src\components
+=== Script completado ===
+âœ“ Componentes extraÃ­dos exitosamente 
+ 
+======================================== 
+âœ“ Procesamiento completado exitosamente 
+======================================== 
+Directorio procesado: C:\Users\jason\Documents\Nuxtek\nux\src\pages 

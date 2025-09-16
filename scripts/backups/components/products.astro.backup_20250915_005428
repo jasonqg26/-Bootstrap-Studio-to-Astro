@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html data-bs-theme="light" lang="en" data-bss-forced-theme="light">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>NuxTek</title>
+    <link rel="apple-touch-icon" type="image/png" sizes="180x180" href="/assets/img/Favicons/icons8-physics-forma-bold-filled-180.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/Favicons/icons8-physics-forma-bold-filled-16.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/Favicons/icons8-physics-forma-bold-filled-16.png" media="(prefers-color-scheme: dark)">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/Favicons/icons8-physics-forma-bold-filled-32.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/Favicons/icons8-physics-forma-bold-filled-32.png" media="(prefers-color-scheme: dark)">
+    <link rel="icon" type="image/png" sizes="180x180" href="/assets/img/Favicons/icons8-physics-forma-bold-filled-180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/assets/img/Favicons/icons8-physics-forma-bold-filled-192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="/assets/img/Favicons/icons8-physics-forma-bold-filled-512.png">
+    <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Acme&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=ADLaM+Display&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Afacad+Flux&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Akshar&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alfa+Slab+One&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kanit&amp;display=swap">
+    <link rel="stylesheet" href="/assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="/assets/fonts/material-icons.min.css">
+    <link rel="stylesheet" href="/assets/css/bss-overrides.css">
+    <link rel="stylesheet" href="/assets/css/animate.min.css">
+    <link rel="stylesheet" href="/assets/css/background-home.css">
+    <link rel="stylesheet" href="/assets/css/background-index.css">
+    <link rel="stylesheet" href="/assets/css/Black-Navbar-1.css">
+    <link rel="stylesheet" href="/assets/css/Black-Navbar.css">
+    <link rel="stylesheet" href="/assets/css/cards.css">
+    <link rel="stylesheet" href="/assets/css/Navbar-With-Button-icons.css">
+    <link rel="stylesheet" href="/assets/css/sherch-home.css">
+</head>
+
+<body class="bg-animate-panel">
+    <div class="offcanvas offcanvas-start bg-bars" tabindex="-1" data-bs-backdrop="false" id="offcanvas-menu">
+        <div class="offcanvas-header" id="slider-bar-home"><a class="text-decoration-none link-body-emphasis d-flex align-items-center me-md-auto mb-3 mb-md-0" href="/"><span class="fs-4 font-logo" style="color:rgb(255,255,255);">Menu</span></a><button class="btn-close btn-close-white" type="button" aria-label="Close" data-bs-dismiss="offcanvas"></button></div>
+        <div class="offcanvas-body d-flex flex-column justify-content-between pt-0">
+            <div>
+                <hr class="mt-0">
+                <ul class="nav nav-pills flex-column mb-auto">
+                    <li class="nav-item"></li>
+                    <li class="nav-item"><a class="nav-link" style="color:rgb(255,255,255);" href="/home"><svg class="bi bi-house-door-fill me-2" fill="currentColor" height="1em" style="font-size:30px;" viewBox="0 0 16 16" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5"></path></svg>&nbsp;Sus productos</a></li>
+                    <li class="nav-item"></li>
+                    <li class="nav-item"><a class="nav-link" href="/products" style="color:rgb(255,255,255);"><svg class="bi bi-grid me-2" fill="currentColor" height="1em" style="font-size:30px;" viewBox="0 0 16 16" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M1 2.5A1.5 1.5 0 0 1 2.5 1h3A1.5 1.5 0 0 1 7 2.5v3A1.5 1.5 0 0 1 5.5 7h-3A1.5 1.5 0 0 1 1 5.5zM2.5 2a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5zm6.5.5A1.5 1.5 0 0 1 10.5 1h3A1.5 1.5 0 0 1 15 2.5v3A1.5 1.5 0 0 1 13.5 7h-3A1.5 1.5 0 0 1 9 5.5zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5zM1 10.5A1.5 1.5 0 0 1 2.5 9h3A1.5 1.5 0 0 1 7 10.5v3A1.5 1.5 0 0 1 5.5 15h-3A1.5 1.5 0 0 1 1 13.5zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5zm6.5.5A1.5 1.5 0 0 1 10.5 9h3a1.5 1.5 0 0 1 1.5 1.5v3a1.5 1.5 0 0 1-1.5 1.5h-3A1.5 1.5 0 0 1 9 13.5zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5z"></path></svg>&nbsp;Nuestros productos</a></li>
+                    <li class="nav-item"><a class="nav-link label-font" href="#" style="color:rgb(255,255,255);"><svg class="bi bi-people me-2" fill="currentColor" height="1em" style="font-size:30px;" viewBox="0 0 16 16" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M15 14s1 0 1-1-1-4-5-4-5 3-5 4 1 1 1 1zm-7.978-1A.261.261 0 0 1 7 12.996c.001-.264.167-1.03.76-1.72C8.312 10.629 9.282 10 11 10c1.717 0 2.687.63 3.24 1.276.593.69.758 1.457.76 1.72l-.008.002a.274.274 0 0 1-.014.002H7.022ZM11 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4m3-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0M6.936 9.28a5.88 5.88 0 0 0-1.23-.247A7.35 7.35 0 0 0 5 9c-4 0-5 3-5 4 0 .667.333 1 1 1h4.216A2.238 2.238 0 0 1 5 13c0-1.01.377-2.042 1.09-2.904.243-.294.526-.569.846-.816M4.92 10A5.493 5.493 0 0 0 4 13H1c0-.26.164-1.03.76-1.724.545-.636 1.492-1.256 3.16-1.275ZM1.5 5.5a3 3 0 1 1 6 0 3 3 0 0 1-6 0m3-2a2 2 0 1 0 0 4 2 2 0 0 0 0-4"></path></svg>&nbsp;Sus clientes</a></li>
+                </ul>
+            </div>
+            <div>
+                <hr>
+                <div class="dropdown"><a class="d-flex align-items-center dropdown-toggle btn-body-white" aria-expanded="false" data-bs-toggle="dropdown" role="button"><img class="rounded-circle object-fit-cover me-2" id="img-profile-sidebar" alt="" width="32" height="32" src="https://cdn.bootstrapstudio.io/placeholders/1400x800.png"><strong>User</strong></a>
+                    <div class="shadow dropdown-menu" data-popper-placement="top-start"><a class="dropdown-item" href="#">New project...</a><a class="dropdown-item" href="#">Settings</a><a class="dropdown-item" href="#">Profile</a>
+                        <div class="dropdown-divider"></div><a class="dropdown-item" href="#">Sign out</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <nav class="navbar navbar-expand-md w-100 pt-3 pb-3 bg-bars" id="nav-bar-logged-user" data-bs-theme="dark">
+        <div class="container">
+            <div class="px-0 container-fluid">
+                <div class="row w-100">
+                    <div class="col-auto col-md-4 align-self-center me-auto">
+                        <div class="justify-content-start align-items-start"><button class="btn btn-primary position-relative me-0" type="button" style="background:rgba(13,110,253,0);border-style:none;" data-bs-toggle="offcanvas" data-bs-target="#offcanvas-menu" aria-controls="offcanvas-menu"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-grid-fill" id="btn-home-menu" style="font-size:30px;background:rgba(0,0,0,0);color:rgb(255,255,255);"><path d="M1 2.5A1.5 1.5 0 0 1 2.5 1h3A1.5 1.5 0 0 1 7 2.5v3A1.5 1.5 0 0 1 5.5 7h-3A1.5 1.5 0 0 1 1 5.5zm8 0A1.5 1.5 0 0 1 10.5 1h3A1.5 1.5 0 0 1 15 2.5v3A1.5 1.5 0 0 1 13.5 7h-3A1.5 1.5 0 0 1 9 5.5zm-8 8A1.5 1.5 0 0 1 2.5 9h3A1.5 1.5 0 0 1 7 10.5v3A1.5 1.5 0 0 1 5.5 15h-3A1.5 1.5 0 0 1 1 13.5zm8 0A1.5 1.5 0 0 1 10.5 9h3a1.5 1.5 0 0 1 1.5 1.5v3a1.5 1.5 0 0 1-1.5 1.5h-3A1.5 1.5 0 0 1 9 13.5z"></path></svg></button></div>
+                    </div>
+                    <div class="col-auto col-md-4 align-items-center align-self-start"><a class="navbar-brand d-flex w-auto h-75 justify-content-center align-items-center ms-0 me-0" data-bss-disabled-mobile="true" data-bss-hover-animate="rubberBand" href="#"><span class="d-flex justify-content-center align-items-center me-2 bs-icon-sm bs-icon-rounded bs-icon-primary bs-icon" style="background:rgba(13,110,253,0);"><img class="ms-3 me-3 mt-3 mb-3" src="/assets/img/Logo/3/icons8-física-72.png" width="65" height="65"></span><span class="ms-3 mb-0 font-logo">NuxTek</span></a></div>
+                    <div class="col-4 offset-xxl-0">
+                        <div class="d-flex justify-content-end align-items-end">
+                            <div class="dropdown"><a class="text-decoration-none" aria-expanded="false" data-bs-toggle="dropdown" href="#" style="color:rgb(255,255,255);"><img class="rounded-circle object-fit-cover me-2" id="img-profile-sidebar-1" alt="" width="32" height="32" src="https://cdn.bootstrapstudio.io/placeholders/1400x800.png"><strong>User</strong></a>
+                                <div class="shadow dropdown-menu dropdown-menu-dark" data-popper-placement="top-start"><a class="dropdown-item" href="#">New project...</a><a class="dropdown-item" href="#">Settings</a><a class="dropdown-item" href="#">Profile</a>
+                                    <div class="dropdown-divider"></div><a class="dropdown-item" href="#">Sign out</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="mt-5 px-0 container-fluid">
+        <div class="row w-100">
+            <div class="col-auto col-md-4 d-flex justify-content-center align-self-center"><label class="col-form-label text-uppercase text-white font-logo font-size-titel">NUSTROS PRODUCTOS</label></div>
+            <div class="col-auto col-md-4 d-flex justify-content-center align-items-center m-auto">
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <div class="ms-0 me-0 input-container">
+                                <p class="bash-text"><span class="me-0 pe-0 user">user<span class="vm">@Nux-Tek</span>:<span class="char">~</span>$ </span></p><input class="form-control-sm w-50 ms-0 ps-4 input" type="text" placeholder="sudo -s" autocomplete="on">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col d-flex justify-content-center align-items-center">
+                            <div><small class="form-text text-white label-font">Puede buscar entre nuestros productos</small></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4 offset-xxl-0"></div>
+        </div>
+    </div>
+    <section class="mt-5 mb-5 visually-hidden invisible" id="carts-buscados">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4"></div>
+                <div class="col-md-4 d-flex justify-content-center">
+                    <div class="card">
+                        <div class="wrapper">
+                            <div class="card-image"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-star">
+                                    <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"></path>
+                                </svg></div>
+                            <div class="content">
+                                <p class="title">Univercidad de Costa rica</p>
+                                <p class="title price">$5.7</p>
+                                <p class="title price old-price">$9.9</p>
+                            </div><button class="btn card-btn btn-font btn-colors" type="button">Compra</button>
+                        </div>
+                        <p class="tag">-45%</p>
+                    </div>
+                </div>
+                <div class="col-md-4"></div>
+            </div>
+        </div>
+    </section>
+    <section class="mt-5 mb-5 pb-0">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 d-flex justify-content-center mt-3 mb-3">
+                    <div class="card-product">
+                        <div class="wrapper">
+                            <div class="card-image"><i class="material-icons" style="font-size: 80px;">mail</i></div>
+                            <div class="content">
+                                <p class="title">Parametrizacion de correos</p>
+                                <p class="title price">$5.7</p>
+                                <p class="title price old-price">$9.9</p>
+                            </div><button class="btn card-btn btn-font btn-colors" type="button">Compra</button>
+                        </div>
+                        <p class="tag">-45%</p>
+                    </div>
+                </div>
+                <div class="col-md-3 d-flex justify-content-center mt-3 mb-3">
+                    <div class="card-product">
+                        <div class="wrapper">
+                            <div class="card-image"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-shop" style="font-size: 80px;">
+                                    <path d="M2.97 1.35A1 1 0 0 1 3.73 1h8.54a1 1 0 0 1 .76.35l2.609 3.044A1.5 1.5 0 0 1 16 5.37v.255a2.375 2.375 0 0 1-4.25 1.458A2.371 2.371 0 0 1 9.875 8 2.37 2.37 0 0 1 8 7.083 2.37 2.37 0 0 1 6.125 8a2.37 2.37 0 0 1-1.875-.917A2.375 2.375 0 0 1 0 5.625V5.37a1.5 1.5 0 0 1 .361-.976l2.61-3.045zm1.78 4.275a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 1 0 2.75 0V5.37a.5.5 0 0 0-.12-.325L12.27 2H3.73L1.12 5.045A.5.5 0 0 0 1 5.37v.255a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0M1.5 8.5A.5.5 0 0 1 2 9v6h1v-5a1 1 0 0 1 1-1h3a1 1 0 0 1 1 1v5h6V9a.5.5 0 0 1 1 0v6h.5a.5.5 0 0 1 0 1H.5a.5.5 0 0 1 0-1H1V9a.5.5 0 0 1 .5-.5M4 15h3v-5H4zm5-5a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1zm3 0h-2v3h2z"></path>
+                                </svg></div>
+                            <div class="content">
+                                <p class="title">Tienda el linea&nbsp; &nbsp; &nbsp; &nbsp;</p>
+                                <p class="title price">$5.7</p>
+                                <p class="title price old-price">$9.9</p>
+                            </div><button class="btn card-btn btn-font btn-colors" type="button">Compra</button>
+                        </div>
+                        <p class="tag">-45%</p>
+                    </div>
+                </div>
+                <div class="col-md-3 d-flex justify-content-center mt-3 mb-3">
+                    <div class="card-product">
+                        <div class="wrapper">
+                            <div class="card-image"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="none" style="font-size: 90px;">
+                                    <path d="M20.2739 9.86883L16.8325 4.95392L18.4708 3.80676L21.9122 8.72167L20.2739 9.86883Z" fill="currentColor"></path>
+                                    <path d="M18.3901 12.4086L16.6694 9.95121L8.47783 15.687L10.1985 18.1444L8.56023 19.2916L3.97162 12.7383L5.60992 11.5912L7.33068 14.0487L15.5222 8.31291L13.8015 5.8554L15.4398 4.70825L20.0284 11.2615L18.3901 12.4086Z" fill="currentColor"></path>
+                                    <path d="M20.7651 7.08331L22.4034 5.93616L21.2562 4.29785L19.6179 5.445L20.7651 7.08331Z" fill="currentColor"></path>
+                                    <path d="M7.16753 19.046L3.72607 14.131L2.08777 15.2782L5.52923 20.1931L7.16753 19.046Z" fill="currentColor"></path>
+                                    <path d="M4.38208 18.5549L2.74377 19.702L1.59662 18.0637L3.23492 16.9166L4.38208 18.5549Z" fill="currentColor"></path>
+                                </svg></div>
+                            <div class="content">
+                                <p class="title">Aplicacion para gimnacios&nbsp;</p>
+                                <p class="title price">$5.7</p>
+                                <p class="title price old-price">$9.9</p>
+                            </div><button class="btn card-btn btn-font btn-colors" type="button">Compra</button>
+                        </div>
+                        <p class="tag">-45%</p>
+                    </div>
+                </div>
+                <div class="col-md-3 d-flex justify-content-center mt-3 mb-3">
+                    <div class="card-product">
+                        <div class="wrapper">
+                            <div class="card-image"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-briefcase-fill" style="font-size: 80px;">
+                                    <path d="M6.5 1A1.5 1.5 0 0 0 5 2.5V3H1.5A1.5 1.5 0 0 0 0 4.5v1.384l7.614 2.03a1.5 1.5 0 0 0 .772 0L16 5.884V4.5A1.5 1.5 0 0 0 14.5 3H11v-.5A1.5 1.5 0 0 0 9.5 1zm0 1h3a.5.5 0 0 1 .5.5V3H6v-.5a.5.5 0 0 1 .5-.5"></path>
+                                    <path d="M0 12.5A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5V6.85L8.129 8.947a.5.5 0 0 1-.258 0L0 6.85z"></path>
+                                </svg></div>
+                            <div class="content">
+                                <p class="title">Subida de Portafolios</p>
+                                <p class="title price">$5.7</p>
+                                <p class="title price old-price">$9.9</p>
+                            </div><button class="btn card-btn btn-font btn-colors" type="button">Compra</button>
+                        </div>
+                        <p class="tag">-45%</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="mb-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 d-flex justify-content-center mt-3 mb-3">
+                    <div class="card-product">
+                        <div class="wrapper">
+                            <div class="card-image"><i class="icon ion-android-restaurant" style="font-size: 80px;"></i></div>
+                            <div class="content">
+                                <p class="title">Restaurantes&nbsp; &nbsp; &nbsp;&nbsp;</p>
+                                <p class="title price">$5.7</p>
+                                <p class="title price old-price">$9.9</p>
+                            </div><button class="btn card-btn btn-font btn-colors" type="button">Compra</button>
+                        </div>
+                        <p class="tag">-45%</p>
+                    </div>
+                </div>
+                <div class="col-md-3 d-flex justify-content-center">
+                    <div class="mt-3 mb-3 card-product">
+                        <div class="wrapper">
+                            <div class="card-image"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-plus-square-dotted">
+                                    <path d="M2.5 0c-.166 0-.33.016-.487.048l.194.98A1.51 1.51 0 0 1 2.5 1h.458V0zm2.292 0h-.917v1h.917zm1.833 0h-.917v1h.917zm1.833 0h-.916v1h.916zm1.834 0h-.917v1h.917zm1.833 0h-.917v1h.917zM13.5 0h-.458v1h.458c.1 0 .199.01.293.029l.194-.981A2.51 2.51 0 0 0 13.5 0m2.079 1.11a2.511 2.511 0 0 0-.69-.689l-.556.831c.164.11.305.251.415.415l.83-.556zM1.11.421a2.511 2.511 0 0 0-.689.69l.831.556c.11-.164.251-.305.415-.415L1.11.422zM16 2.5c0-.166-.016-.33-.048-.487l-.98.194c.018.094.028.192.028.293v.458h1zM.048 2.013A2.51 2.51 0 0 0 0 2.5v.458h1V2.5c0-.1.01-.199.029-.293l-.981-.194zM0 3.875v.917h1v-.917zm16 .917v-.917h-1v.917zM0 5.708v.917h1v-.917zm16 .917v-.917h-1v.917zM0 7.542v.916h1v-.916zm15 .916h1v-.916h-1zM0 9.375v.917h1v-.917zm16 .917v-.917h-1v.917zm-16 .916v.917h1v-.917zm16 .917v-.917h-1v.917zm-16 .917v.458c0 .166.016.33.048.487l.98-.194A1.51 1.51 0 0 1 1 13.5v-.458zm16 .458v-.458h-1v.458c0 .1-.01.199-.029.293l.981.194c.032-.158.048-.32.048-.487M.421 14.89c.183.272.417.506.69.689l.556-.831a1.51 1.51 0 0 1-.415-.415l-.83.556zm14.469.689c.272-.183.506-.417.689-.69l-.831-.556c-.11.164-.251.305-.415.415l.556.83zm-12.877.373c.158.032.32.048.487.048h.458v-1H2.5c-.1 0-.199-.01-.293-.029zM13.5 16c.166 0 .33-.016.487-.048l-.194-.98A1.51 1.51 0 0 1 13.5 15h-.458v1zm-9.625 0h.917v-1h-.917zm1.833 0h.917v-1h-.917zm1.834-1v1h.916v-1zm1.833 1h.917v-1h-.917zm1.833 0h.917v-1h-.917zM8.5 4.5a.5.5 0 0 0-1 0v3h-3a.5.5 0 0 0 0 1h3v3a.5.5 0 0 0 1 0v-3h3a.5.5 0 0 0 0-1h-3z"></path>
+                                </svg></div>
+                            <div class="content">
+                                <p class="title">Tienda de uñas&nbsp; &nbsp; &nbsp;&nbsp;</p>
+                                <p class="title price">$5.7</p>
+                                <p class="title price old-price">$9.9</p>
+                            </div><button class="btn card-btn btn-font btn-colors" type="button">Compra</button>
+                        </div>
+                        <p class="tag">-45%</p>
+                    </div>
+                </div>
+                <div class="col-md-3 d-flex justify-content-center">
+                    <div class="mt-3 mb-3 card-product">
+                        <div class="wrapper">
+                            <div class="card-image"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-star">
+                                    <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"></path>
+                                </svg></div>
+                            <div class="content">
+                                <p class="title">Barberias&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</p>
+                                <p class="title price">$5.7</p>
+                                <p class="title price old-price">$9.9</p>
+                            </div><button class="btn card-btn btn-font btn-colors" type="button">Compra</button>
+                        </div>
+                        <p class="tag">-45%</p>
+                    </div>
+                </div>
+                <div class="col-md-3 d-flex justify-content-center">
+                    <div class="mt-3 mb-3 card-product">
+                        <div class="wrapper">
+                            <div class="card-image"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-star">
+                                    <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"></path>
+                                </svg></div>
+                            <div class="content">
+                                <p class="title">Univercidad de Costa rica</p>
+                                <p class="title price">$5.7</p>
+                                <p class="title price old-price">$9.9</p>
+                            </div><button class="btn card-btn btn-font btn-colors" type="button">Compra</button>
+                        </div>
+                        <p class="tag">-45%</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="/assets/bootstrap/js/bootstrap.min.js" is:inline></script>
+    <script src="/assets/js/bs-init.js" is:inline></script>
+    <script src="/assets/js/home.js" is:inline></script>
+</body>
+
+</html>

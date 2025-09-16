@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test Definitivo</title>
+</head>
+<body>
+    <h1>Test Definitivo</h1>
+    
+    <div id="offcanvas-menu" class="offcanvas offcanvas-start bg-bars" tabindex="-1" data-bs-backdrop="false">
+        <div class="offcanvas-header">
+            <a href="/"><span class="fs-4 font-logo">Menu</span></a>
+            <button class="btn-close btn-close-white" type="button" data-bs-dismiss="offcanvas"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div>
+                <hr class="mt-0" />
+                <ul class="nav nav-pills flex-column mb-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="home.html">Sus productos</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <p>Contenido final que debe preservarse</p>
+</body>
+</html>
